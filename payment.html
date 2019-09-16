@@ -10,12 +10,12 @@
   <body>
 
    <h1>Payment</h1>
-   <img src="" alt="Fifi's Logo">
+   <img src="images/logo.png" alt="Fifi's Logo">
 
    <p>Total: $23.00</p>
    <button type="button" name="button">Pay at counter</button>
 
-   <div class="payment-card">
+   <div class="payment__card">
      <p>Pay with card</p>
 
      <form class="" action="index.html" method="post">
@@ -24,7 +24,25 @@
        <br>
 
        <p>Expiration Date</p>
-       <select class="payment-card--expiry" name="">
+       <br>
+       <p>Month</p>
+       <select class="card__month" name="">
+         <option value="">January</option>
+         <option value="">February</option>
+         <option value="">March</option>
+         <option value="">April</option>
+         <option value="">May</option>
+         <option value="">June</option>
+         <option value="">July</option>
+         <option value="">August</option>
+         <option value="">September</option>
+         <option value="">October</option>
+         <option value="">November</option>
+         <option value="">December</option>
+       </select>
+
+       <p>Year</p>
+       <select class="card__year" name="">
          <option value="">2019</option>
          <option value="">2020</option>
          <option value="">2021</option>
@@ -36,7 +54,7 @@
        <input type="text" name="" value="">
      </form>
 
-     <button type="button" name="button">Confirm</button>
+     <a class="btn__white" href="confirmation.html">Confirm</a>
 
    </div>
  </body>
