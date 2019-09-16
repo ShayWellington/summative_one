@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  display: border-box;
+  text-decoration: none;
+}
+
+.index-body {
+  background-color: black;
+  position: absolute;
+}
+
+/* Buttons  */
+
+.index-btn {
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 30px;
+  color: #E5508F;
+  position: relative;
+}
