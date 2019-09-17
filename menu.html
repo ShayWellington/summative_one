@@ -11,25 +11,29 @@
 
      <h1>Menu</h1>
 
-     <ul>
-       <li><a href="#"></a>All</li>
-       <li><a href="#"></a>Breakfast</li>
-       <li><a href="#"></a>Sandwiches</li>
-       <li><a href="#"></a>Drinks</li>
+     <ul class="menu__nav">
+       <li><a href="#menu"></a>All</li>
+       <li><a href="#breakfast"></a>Breakfast</li>
+       <li><a href="#sandwiches"></a>Sandwiches</li>
+       <li><a href="#drinks"></a>Drinks</li>
      </ul>
 
-     <div class="menu">
+     <div class="container" id="menu">
 
-      <div class="menu__breakfast">
-        <h2>Breakfast</h2>
-        <div class="menu__granola">
+      <h2>Breakfast</h2>
+
+        <!-- <div class="row" id="breakfast"> -->
+          <div class="col-1">
           <img class="menu__img"src="images/granola.png" alt="Granola Breakfast Dish">
-          <h3>Granola</h3>
-          <p>Dried stone-fruit granola served with your choice of milk, yoghurt andf stewed seasonal fruits. Make it vegan: Coconut yoghurt + $2</p>
-          <p>$8.00</p>
-        </div>
+          </div>
+            <div class="col-2">
+              <h3>Granola</h3>
+              <p>Dried stone-fruit granola served with your choice of milk, yoghurt andf stewed seasonal fruits. Make it vegan: Coconut yoghurt + $2</p>
+              <p>$8.00</p>
+            </div>
+          <button class="col-3" type="button">Add</button>
 
-        <div class="menu__harlem">
+        <!-- <div class="menu__harlem">
           <img class="menu__img" src="images/spanish-harlem.png" alt="Spanish Harlem Breakfast Dish">
           <h3>Spanish Harlem</h3>
           <p>Free-range eggs, beans, spicy chorizo with melted manchego served with toasted Shelly Bay sourdough.</p>
@@ -64,9 +68,9 @@
           <p>$15.00</p>
         </div>
 
-      </div>
+      </div> -->
 
-      <div class="menu__sandwiches">
+      <!-- <div class="menu__sandwiches" id="sandwiches">
         <h2>Sandwiches</h2>
         <div class="menu__working">
           <h3>Working 9-5</h3>
@@ -86,7 +90,7 @@
           <p>$10.00</p>
         </div>
 
-        <div class="menu--vegan">
+        <div class="menu__vegan">
           <h3>Vegan Sam-slam</h3>
           <p>Italian seasonal roasted veggies and house made hummus</p>
           <p>$12.00</p>
@@ -94,7 +98,7 @@
 
       </div>
 
-      <div class="menu__drinks">
+      <div class="menu__drinks" id="drinks">
         <h2>Drinks</h2>
         <div class="menu__black">
           <h3>Long Black</h3>
@@ -139,7 +143,7 @@
         <div class="menu__apple">
           <h3>Apple Juice</h3>
           <p>$5.00</p>
-        </div>
+        </div> -->
 
       </div>
 

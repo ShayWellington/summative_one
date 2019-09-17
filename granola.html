@@ -6,30 +6,36 @@
    <title>Granola</title>
    <link rel="stylesheet" href="css/style.css" type="text/css">
    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/270196945f.js"></script>
  </head>
   <body>
 
-   <h1>Granola</h1>
+   <a href="menu.html"><i class="fas fa-chevron-left"></i></a>
+   <a href="review-order.html"><i class="fas fa-shopping-basket"></i></a>
+
+
+   <h1 class="nav__h1">Granola</h1>
 
   <div class="body--purple">
-     <img src="images/granola.png" alt="Granola Breakfast Dish Image">
+     <img class="granola__img2"src="images/granola-cut.png" alt="Granola Breakfast Dish Image">
 
      <div class="granola__info">
        <p>Dried stone-fruit granola served with your choice of
        milk, yoghurt and stewed seasonal fruits.</p>
        <br>
        <p>Make it vegan: Coconut yoghurt + $2</p>
+       </div>
 
-        <div class="granola--box">
+        <div class="granola__box">
           <select class="option__select" >
-            <option value="">Milk</option>
-            <option value="">Yoghurt</option>
-            <option value="">Coconut Yoghurt (vegan)</option>
+            <option>Select Option</option>
+            <option>Milk</option>
+            <option>Yoghurt</option>
+            <option>Coconut Yoghurt (vegan)</option>
           </select>
         </div>
 
-        <button class="btn__white" type="button">Add to Order</button>
-     </div>
+        <button class="btn btn__granola" type="button">Add to Order</button>
    </div>
 
  </body>
