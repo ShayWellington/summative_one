@@ -1,11 +1,11 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   /* display: border-box; */
   text-decoration: none;
 }
 
-p, h1, h2, h3 {
+body {
   font-family: 'Noto Sans', sans-serif;
 }
 
@@ -16,8 +16,6 @@ h1, h2, h3 {
 h1 {
   font-size: 50px;
   letter-spacing: 10px;
-  /* padding: 50px 60px;
-  margin: 10px 380px; */
 }
 
 .nav__h1 {
@@ -36,7 +34,7 @@ h2 {
   /* width: 100%; */
   height: 1255px;
   background-image: linear-gradient(to bottom right, #4C469F, rgba(251,139,187,0.28));
-  border-radius: 0px 0px 50px 50px;
+  border-radius: 0 0 50px 50px;
   box-shadow: 5px 10px 10px rgba(229,80,143,0.15);
   margin-bottom: 30px;
 }
@@ -44,8 +42,8 @@ h2 {
 .body--purple {
   height: 1300px;
   background-image: linear-gradient(to top, #4C469F, rgba(76,70,159,0.68));
-  border-radius: 50px 50px 0px 0px;
-  box-shadow: 0px -10px 10px rgba(76,70,159,0.25);
+  border-radius: 50px 50px 0 0;
+  box-shadow: 0 -10px 10px rgba(76,70,159,0.25);
 }
 
 .indexinfo {
@@ -60,7 +58,7 @@ h2 {
 }
 
 .menu__nav {
-  margin: 30px 0px;
+  margin: 30px 0;
   text-align: center;
 }
 
@@ -69,7 +67,7 @@ h2 {
   text-transform: uppercase;
   font-family: 'Noto Sans', sans-serif;
   font-size: 22px;
-  padding: 0px 40px;
+  padding: 0 40px;
 }
 
 .menu__nav a {
@@ -84,7 +82,7 @@ h2 {
 .granola__info {
   color: white;
   font-size: 28px;
-  padding: 0px 260px;
+  padding: 0 260px;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -93,7 +91,13 @@ h2 {
   font-size: 50px;
   text-align: center;
   text-transform: uppercase;
-  margin: 50px 0px;
+  margin: 50px 0;
+}
+
+.payment__card--text {
+  font-size: 36px;
+  text-align: center;
+  margin: 40px 0;
 }
 
 /* Images */
@@ -152,6 +156,10 @@ h2 {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn__index {
   background-color: white;
   color: #E5508F;
@@ -164,7 +172,7 @@ h2 {
   background-color: white;
   color: #4C469F;
   width: 50%;
-  padding: 20px 0px;
+  padding: 20px 0;
   left: 255px;
 }
 
@@ -172,9 +180,9 @@ h2 {
   background-color: #FB8BBB;
   color: white;
   width: 60%;
-  padding: 15px 0px;
-  left: 185px;
-  margin: 20px 0px;
+  padding: 15px 0;
+  left: 215px;
+  margin: 20px 0;
 }
 
 .menu__btn {
@@ -185,6 +193,24 @@ h2 {
   text-transform: uppercase;
   font-size: 20px;
   font-family: 'Noto Sans', sans-serif;
+}
+
+.btn__form {
+  background-color: #4C469F;
+  color: white;
+  width: 60%;
+  padding: 15px 0;
+  left: 215px;
+  margin: 20px 0;
+}
+
+.form__btn2 {
+  background-color: #4C469F;
+  color: white;
+  width: 60%;
+  margin: 50px 0;
+  left: 215px;
+  padding: 15px 0;
 }
 
 .option__select {
@@ -207,6 +233,97 @@ option {
   font-size: 18px;
 }
 
+/* Form */
+
+.credit-card {
+  width: 360px;
+  height: 250px;
+  margin: 60px auto 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.form__header {
+    height: 60px;
+    padding: 20px 30px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+.form__body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+
+.form__header--title {
+  font-size: 18px;
+  margin: 0;
+  color: #5e6977;
+}
+
+.form__body--number, .cvv-input input, .form__body--month select, .form__body--year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.form__body--number, .form__body--month select, .form__body--year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+
+.form__body--number, .cvv-details, .cvv-input input, .form__body--month select, .form__body--year select {
+    /* opacity: .7; */
+    color: #86939e;
+}
+
+.form__body--number {
+    width: 90%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.form__body--month select, .form__body--year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.form__body--month select {
+    float: left;
+}
+
+.form__body--year select {
+    float: right;
+}
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.cvv-details p {
+    margin-top: 6px;
+}
 /* Grid */
 
 /* .container {
