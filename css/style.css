@@ -326,22 +326,12 @@ option {
 }
 /* Grid */
 
-/* .container {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 1em;
 }
 
-.col-1 {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
+.container > div:nth-child(odd){
+  background: #ddd;
 }
-
-.col-2 {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
-} */
