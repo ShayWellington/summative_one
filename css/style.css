@@ -23,6 +23,12 @@ h1 {
   left: 380px;
 }
 
+.nav2__h1 {
+  position: relative;
+  top: -90px;
+  left: 280px;
+}
+
 .menu__h1 {
   position: relative;
   top: -90px;
@@ -40,6 +46,14 @@ h3 {
   font-size: 28px;
 }
 
+.review__total {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  margin: 50px 0;
+}
+
 .body--gradient {
   height: 1255px;
   background-image: linear-gradient(to bottom right, #4C469F, rgba(251,139,187,0.28));
@@ -53,6 +67,15 @@ h3 {
   background-image: linear-gradient(to top, #4C469F, rgba(76,70,159,0.68));
   border-radius: 50px 50px 0 0;
   box-shadow: 0 -10px 10px rgba(76,70,159,0.25);
+}
+
+.review-total {
+  height: 350px;
+  width: auto;
+  background-image: linear-gradient(to top, #E5508F, rgba(229,80,143,0.4));
+  border-radius: 50px 50px 0 0;
+  box-shadow: 0 -10px 10px rgba(76,70,159,0.25);
+  margin-top: 80px;
 }
 
 .indexinfo {
@@ -230,6 +253,14 @@ h3 {
   margin: 50px 0;
   left: 215px;
   padding: 15px 0;
+}
+
+.btn__total {
+  background-color: white;
+  color: #E5508F;
+  width: 50%;
+  padding: 20px 0;
+  left: 255px;
 }
 
 .option__select {
