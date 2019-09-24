@@ -467,12 +467,14 @@ option {
 
 // Javascript Toggle
 
-#index__learn-more {
-
-}
-
-#index__learn-more--toggle {
-  width: 80%;
-  margin: 20px;
-  padding: 20px;
+.div__show {
+  margin: 10px 90px 50px 90px;
+  h4 {
+    margin-bottom: 20px;
+    color: $light-purple;
+  }
+  p {
+    margin-bottom: 50px;
+    padding: 0 90px 0 0;
+  }
 }

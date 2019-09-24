@@ -373,9 +373,13 @@ option {
 .container__btn-align {
   align-self: center; }
 
-#index__learn-more--toggle {
-  width: 80%;
-  margin: 20px;
-  padding: 20px; }
+.div__show {
+  margin: 10px 90px 50px 90px; }
+  .div__show h4 {
+    margin-bottom: 20px;
+    color: #7D92C3; }
+  .div__show p {
+    margin-bottom: 50px;
+    padding: 0 90px 0 0; }
 
 /*# sourceMappingURL=style.css.map */

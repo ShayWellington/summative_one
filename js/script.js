@@ -1,17 +1,15 @@
 console.log('my script is working');
 
-$( document ).ready(function() {
-    console.log( "ready!" );
+// $(document).ready(function() {
+//
+//   $("#button").
+// click(function(){
+//   $("#div").
+//     html("Your text");
+//   });
+//
+// });
 
-    function myFunction() {
-      var x = document.getElementById("indexToggle");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-        
-    }
-
-  }
+$('button').click(function () {
+  $('#div').toggle()
 });
